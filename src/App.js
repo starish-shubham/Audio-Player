@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AudioPlayer from "./components/AudioPlayer";
+import MusicList from "./components/musicList";
+import Time from "./components/time";
+import AudioFile from "./audio/audio.mp3";
+import { useState } from "react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="profile">
+        <h1 className="name">Camba.ai</h1>
+        <Time />
+        <MusicList />
+      </div>
     </div>
   );
 }

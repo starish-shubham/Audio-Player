@@ -1,0 +1,32 @@
+.playContainer{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    padding: 0.5% 2%;
+}
+.play-button, .reset-button{
+    background-color: hsl(213, 68%, 52%);
+    color: #fff;
+    cursor: pointer;
+    padding: 3% 6%;
+    border-radius: 0.5rem;
+    border: none;
+    margin-left: 6%;
+    font-weight: bold;
+}
+.play-button:hover, .reset-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.reset-button{
+    background-color: #e42721;
+}
+.speed{
+    padding: 2% 2%;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+}

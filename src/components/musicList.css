@@ -1,0 +1,31 @@
+.buttons-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.music-button{
+    font-size: 1.5rem;
+    padding: 1% 7%;
+    border-radius: 1.5rem;
+    border: none;
+    color: #fff;
+}
+.music-button:hover{
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+#Piano{
+    background-color: #566439;
+}
+#Drums{
+    background-color: #0B618E;
+}
+#Guitar{
+    background-color: #990F4F;
+}
+#Trumpet{
+    background-color: #C2752C;
+}
